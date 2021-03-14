@@ -19,7 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8444d8fc-9259-44ef-8303-71cbc06869c6" name="Default Changelist" comment="" />
+    <list default="true" id="8444d8fc-9259-44ef-8303-71cbc06869c6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,17 +159,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ecommerce1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\laragon\ecommerce\app\Models" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\laragon\ecommerce\resources\frontend" />
       <recent name="C:\laragon\ecommerce\resources\backend" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\laragon\ecommerce\resources\views\admin" />
+      <recent name="C:\laragon\ecommerce\app\Models" />
     </key>
   </component>
   <component name="RunManager">
@@ -203,7 +215,8 @@
       <workItem from="1608604782357" duration="643000" />
       <workItem from="1609805862626" duration="619000" />
       <workItem from="1615553099565" duration="23000" />
-      <workItem from="1615555234371" duration="3885000" />
+      <workItem from="1615555234371" duration="11319000" />
+      <workItem from="1615716467920" duration="631000" />
     </task>
     <servers />
   </component>
@@ -227,9 +240,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="94" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1607464815119" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1615555299364">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1615580831701">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615555299364" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1615580831701" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1615569547295">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1615569547295" />
+    <state x="540" y="135" key="NewPhpClassDialog" timestamp="1615583999631">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1615583999631" />
   </component>
 </project>
