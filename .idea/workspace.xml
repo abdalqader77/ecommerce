@@ -150,7 +150,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Traits" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Repositories" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,6 +160,8 @@
       <recent name="C:\laragon\ecommerce\app\Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\ecommerce\app\Repositories" />
+      <recent name="C:\laragon\ecommerce\app\Contracts" />
       <recent name="C:\laragon\ecommerce\app\Traits" />
       <recent name="C:\laragon\ecommerce\resources\frontend" />
       <recent name="C:\laragon\ecommerce\resources\backend" />
@@ -208,7 +210,7 @@
       <workItem from="1609805862626" duration="619000" />
       <workItem from="1615553099565" duration="23000" />
       <workItem from="1615555234371" duration="11319000" />
-      <workItem from="1615716467920" duration="3021000" />
+      <workItem from="1615716467920" duration="3715000" />
     </task>
     <servers />
   </component>
