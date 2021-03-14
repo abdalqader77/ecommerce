@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="8444d8fc-9259-44ef-8303-71cbc06869c6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/partials/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Repositories" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/settings" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -160,11 +164,11 @@
       <recent name="C:\laragon\ecommerce\app\Models" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\ecommerce\resources\views\admin\settings" />
+      <recent name="C:\laragon\ecommerce\resources\views\admin\partials" />
+      <recent name="C:\laragon\ecommerce\app\Traits" />
       <recent name="C:\laragon\ecommerce\app\Repositories" />
       <recent name="C:\laragon\ecommerce\app\Contracts" />
-      <recent name="C:\laragon\ecommerce\app\Traits" />
-      <recent name="C:\laragon\ecommerce\resources\frontend" />
-      <recent name="C:\laragon\ecommerce\resources\backend" />
     </key>
   </component>
   <component name="RunManager">
@@ -210,7 +214,7 @@
       <workItem from="1609805862626" duration="619000" />
       <workItem from="1615553099565" duration="23000" />
       <workItem from="1615555234371" duration="11319000" />
-      <workItem from="1615716467920" duration="3715000" />
+      <workItem from="1615716467920" duration="7050000" />
     </task>
     <servers />
   </component>
