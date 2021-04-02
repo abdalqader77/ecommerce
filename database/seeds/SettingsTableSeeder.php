@@ -116,5 +116,4 @@ class SettingsTableSeeder extends Seeder
         }
         $this->command->info('Inserted '.count($this->settings). ' records');
     }
-
 }
