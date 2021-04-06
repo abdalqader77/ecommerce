@@ -176,6 +176,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         App\Providers\SettingServiceProvider::class,
         App\Providers\RepositoryServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
+
 
 
     ],

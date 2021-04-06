@@ -11,10 +11,10 @@ use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Doctrine\Instantiator\Exception\InvalidArgumentException;
 
 /**
-* Class CategoryRepository
-*
-* @package \App\Repositories
-*/
+ * Class CategoryRepository
+ *
+ * @package \App\Repositories
+ */
 class CategoryRepository extends BaseRepository implements CategoryContract
 {
     use UploadAble;
@@ -54,6 +54,7 @@ class CategoryRepository extends BaseRepository implements CategoryContract
 
             throw new ModelNotFoundException($e);
         }
+
     }
 
     /**
@@ -131,5 +132,25 @@ class CategoryRepository extends BaseRepository implements CategoryContract
         $category->delete();
 
         return $category;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function treeList()
+    {
+        return Category::orderByRaw('-name ASC')
+            ->get()
+            ->nest()
+            ->setIndent('|–– ')
+            ->listsFlattened('name');
+    }
+
+    public function findBySlug($slug)
+    {
+        return Category::with('products')
+            ->where('slug', $slug)
+            ->where('menu', 1)
+            ->first();
     }
 }

@@ -2,23 +2,39 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Model;
+use App\Models\Product;
+use TypiCMS\NestableTrait;
 use Illuminate\Support\Str;
+use Illuminate\Database\Eloquent\Model;
 
 class Category extends Model
 {
+    use NestableTrait;
+
+    /**
+     * @var string
+     */
     protected $table = 'categories';
 
+    /**
+     * @var array
+     */
     protected $fillable = [
         'name', 'slug', 'description', 'parent_id', 'featured', 'menu', 'image'
     ];
 
+    /**
+     * @var array
+     */
     protected $casts = [
         'parent_id' =>  'integer',
         'featured'  =>  'boolean',
         'menu'      =>  'boolean'
     ];
 
+    /**
+     * @param $value
+     */
     public function setNameAttribute($value)
     {
         $this->attributes['name'] = $value;
@@ -48,5 +64,4 @@ class Category extends Model
     {
         return $this->belongsToMany(Product::class, 'product_categories', 'category_id', 'product_id');
     }
-
 }
