@@ -166,8 +166,8 @@
                                                    type="checkbox"
                                                    id="status"
                                                    name="status"
-                                                   {{ $product->status == 1 ? 'checked' : '' }}
-                                                />Status
+                                                {{ $product->status == 1 ? 'checked' : '' }}
+                                            />Status
                                         </label>
                                     </div>
                                 </div>
@@ -178,8 +178,8 @@
                                                    type="checkbox"
                                                    id="featured"
                                                    name="featured"
-                                                   {{ $product->featured == 1 ? 'checked' : '' }}
-                                                />Featured
+                                                {{ $product->featured == 1 ? 'checked' : '' }}
+                                            />Featured
                                         </label>
                                     </div>
                                 </div>
@@ -249,10 +249,8 @@
     <script type="text/javascript" src="{{ asset('backend/js/app.js') }}"></script>
     <script>
         Dropzone.autoDiscover = false;
-
         $( document ).ready(function() {
             $('#categories').select2();
-
             let myDropzone = new Dropzone("#dropzone", {
                 paramName: "image",
                 addRemoveLinks: false,
